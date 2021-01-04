@@ -1,0 +1,27 @@
+#photoLabel .custom-file-label::after {
+	content: "Choisir...";
+}
+
+.desc {
+	text-overflow: ellipsis;
+	width: 200px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.logo {
+	width: 100px;
+}
+
+.card-sell {
+	background-color: mistyrose;
+}
+
+.card-rent {
+	background-color: powderblue;
+}
+.card-img-top {
+	width: 75%;
+	margin: auto;
+}
+/* Probleme CSS, s'il charge le mauvais fichier, vider les caches dans chrome */
